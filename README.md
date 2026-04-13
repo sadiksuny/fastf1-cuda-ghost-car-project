@@ -1,76 +1,157 @@
-# F1 Driver-vs-Driver Lap Delta Visualizer with Ghost Car (CUDA C++)
+# Fast F1 CUDA Ghost Car
 
-This prototype compares two laps, aligns them by cumulative distance, computes lap delta on the GPU, and writes rendered track frames with two ghost markers.
+This is a small CUDA/C++ app for comparing two laps and visualizing the difference as a ghost-car replay.
 
-## Current prototype scope
+It takes two telemetry CSV files, aligns the laps on the GPU, computes the delta, renders a frame sequence, and writes a simple local viewer to `output/viewer.html`.
 
-- Loads laps from CSV (`x,y,t[,speed,throttle,brake]`) or built-in sample laps.
-- Computes segment lengths and cumulative distance.
-- Resamples both laps onto one uniform distance grid.
-- Computes `delta_t(s) = t_compare(s) - t_reference(s)` with CUDA kernels.
-- Optional smoothing with a shared-memory box filter.
-- Renders a simple 2D track map to PPM frames color-coded by delta.
-- Draws two ghost markers per frame:
-  - Green: reference lap marker
-  - Yellow: compare lap marker
+## Requirements
+
+You need:
+- an NVIDIA GPU
+- a working NVIDIA driver
+- the CUDA Toolkit
+- CMake 3.22 or newer
+- a C++ compiler supported by your CUDA install
+
+## Platform Notes
+
+### Windows
+
+Windows is the main supported path for this repo.
+
+Install:
+- Visual Studio 2022 with `Desktop development with C++`
+- CUDA Toolkit
+- CMake
+
+Use a Visual Studio Developer Command Prompt or Developer PowerShell.
+
+### Linux
+
+Linux should work as long as you have:
+- NVIDIA driver
+- CUDA Toolkit
+- CMake
+- GCC/G++
+
+### macOS
+
+macOS is not a practical target for this project. Native CUDA support is not available on modern Macs, so you will need a Windows or Linux machine with an NVIDIA GPU.
 
 ## Build
+
+### Windows
+
+From the repo root:
+
+```bat
+set CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2
+set PATH=%CUDA_PATH%\bin;%PATH%
+cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -T "cuda=%CUDA_PATH%"
+cmake --build build --config Release
+```
+
+If your CUDA version is different, replace `v13.2` with the version you actually installed.
+
+### Linux
 
 ```bash
 cmake -S . -B build
 cmake --build build -j
 ```
 
+If CMake does not find CUDA automatically:
+
+```bash
+cmake -S . -B build -DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc
+cmake --build build -j
+```
+
+## Input Data
+
+The app expects two CSV files. Minimum format:
+
+```text
+x,y,t
+```
+
+Optional extra columns:
+
+```text
+x,y,t,speed,throttle,brake
+```
+
+If you want real F1 telemetry, the helper script in `scripts/export_fastf1_laps.py` can generate CSVs from Fast-F1 data.
+
 ## Run
 
-With built-in sample data:
+### Windows
+
+Built-in sample laps:
+
+```bat
+.\build\Release\f1_ghost_app.exe
+```
+
+Two CSV files with labels:
+
+```bat
+.\build\Release\f1_ghost_app.exe data\fastf1_ref.csv data\fastf1_cmp.csv LEC VER
+```
+
+### Linux
+
+Built-in sample laps:
 
 ```bash
 ./build/f1_ghost_app
 ```
 
-With CSV files:
+Two CSV files with labels:
 
 ```bash
-./build/f1_ghost_app data/sample_ref.csv data/sample_cmp.csv
+./build/f1_ghost_app data/fastf1_ref.csv data/fastf1_cmp.csv LEC VER
 ```
 
-The app writes frames into `output/frame_*.ppm`.
+## Output
 
-## Run tests
+Running the app writes:
+- `output/frame_*.ppm`
+- `output/frame_*.bmp`
+- `output/viewer.html`
+
+Open the viewer in a browser:
+
+### Windows
+
+```bat
+explorer .\output\viewer.html
+```
+
+### Linux
 
 ```bash
-ctest --test-dir build --output-on-failure
+xdg-open output/viewer.html
 ```
 
-## CUDA container (recommended)
+## Quick Start
 
-This repo includes a CUDA dev container so you can build/run without installing toolchains locally.
+### Windows
 
-Build image:
-
-```bash
-docker build -f Dockerfile.cuda -t f1-cuda-ghost:dev .
+```bat
+set CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2
+set PATH=%CUDA_PATH%\bin;%PATH%
+cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -T "cuda=%CUDA_PATH%"
+cmake --build build --config Release
+.\build\Release\f1_ghost_app.exe data\fastf1_ref.csv data\fastf1_cmp.csv LEC VER
+explorer .\output\viewer.html
 ```
 
-Run container (with GPU):
-
-```bash
-docker run --rm -it --gpus all -v "$PWD":/workspace/f1 -w /workspace/f1 f1-cuda-ghost:dev
-```
-
-Inside the container:
+### Linux
 
 ```bash
 cmake -S . -B build
 cmake --build build -j
-ctest --test-dir build --output-on-failure
+./build/f1_ghost_app data/fastf1_ref.csv data/fastf1_cmp.csv LEC VER
+xdg-open output/viewer.html
 ```
-
-## Project layout
-
-- `src/telemetry_loader.*`: CSV loader + sample lap generator.
-- `src/lap_processing.cu/.cuh`: CUDA distance, resampling, delta, smoothing pipeline.
-- `src/renderer.*`: Render-ready frame generation and PPM output.
-- `src/ui.*`: Minimal prototype loop and toggles.
-- `tests/`: correctness tests for cumulative distance and interpolation/delta.

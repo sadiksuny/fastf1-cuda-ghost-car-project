@@ -21,10 +21,13 @@ struct Image {
 };
 
 Image render_track_frame(const lap::DeltaResult& delta,
-                         std::size_t ghost_index,
+                         float frame_time_s,
+                         const std::string& reference_label,
+                         const std::string& compare_label,
                          int width,
                          int height);
 
 void write_ppm(const Image& image, const std::string& path);
+void write_bmp(const Image& image, const std::string& path);
 
 }  // namespace render

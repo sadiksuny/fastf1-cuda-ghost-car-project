@@ -8,6 +8,8 @@
 namespace telemetry {
 namespace {
 
+constexpr float kPi = 3.14159265358979323846f;
+
 std::vector<float> split_csv_to_floats(const std::string& line) {
   std::vector<float> values;
   std::stringstream ss(line);
@@ -76,7 +78,7 @@ TelemetryLap make_sample_lap(float radius_x, float radius_y, float lap_time_s, s
 
   for (std::size_t i = 0; i < points; ++i) {
     const float u = static_cast<float>(i) / static_cast<float>(points - 1);
-    const float theta = (2.0f * static_cast<float>(M_PI) * u) + phase;
+    const float theta = (2.0f * kPi * u) + phase;
     lap.x[i] = radius_x * std::cos(theta);
     lap.y[i] = radius_y * std::sin(theta);
     lap.t[i] = lap_time_s * u;
