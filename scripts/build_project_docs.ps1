@@ -179,16 +179,31 @@ function New-SlideXml {
         <p:cNvGrpSpPr/>
         <p:nvPr/>
       </p:nvGrpSpPr>
-      <p:grpSpPr/>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
       <p:sp>
         <p:nvSpPr>
           <p:cNvPr id="2" name="Title 1"/>
           <p:cNvSpPr/>
           <p:nvPr/>
         </p:nvSpPr>
-        <p:spPr/>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="457200" y="228600"/>
+            <a:ext cx="8229600" cy="914400"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
         <p:txBody>
-          <a:bodyPr/>
+          <a:bodyPr wrap="square" lIns="91440" tIns="45720" rIns="91440" bIns="45720"/>
           <a:lstStyle/>
           <a:p><a:r><a:rPr lang="en-US" sz="2800" b="1"/><a:t>$escapedTitle</a:t></a:r></a:p>
         </p:txBody>
@@ -199,9 +214,17 @@ function New-SlideXml {
           <p:cNvSpPr/>
           <p:nvPr/>
         </p:nvSpPr>
-        <p:spPr/>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="685800" y="1371600"/>
+            <a:ext cx="7772400" cy="4343400"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+          <a:ln><a:noFill/></a:ln>
+        </p:spPr>
         <p:txBody>
-          <a:bodyPr/>
+          <a:bodyPr wrap="square" lIns="91440" tIns="45720" rIns="91440" bIns="45720"/>
           <a:lstStyle/>
           $body
         </p:txBody>
@@ -349,6 +372,49 @@ $slideRels
     Remove-Item -LiteralPath $root -Recurse -Force
 }
 
+function New-PowerPointDeck {
+    param(
+        [string]$DestinationPath,
+        [object[]]$Slides
+    )
+
+    $powerPoint = $null
+    $presentation = $null
+    try {
+        $powerPoint = New-Object -ComObject PowerPoint.Application
+        $powerPoint.Visible = -1
+        $presentation = $powerPoint.Presentations.Add()
+
+        foreach ($slideData in $Slides) {
+            $slide = $presentation.Slides.Add($presentation.Slides.Count + 1, 12)
+
+            $titleBox = $slide.Shapes.AddTextbox(1, 36, 24, 620, 50)
+            $titleRange = $titleBox.TextFrame.TextRange
+            $titleRange.Text = $slideData.Title
+            $titleRange.Font.Size = 28
+            $titleRange.Font.Bold = -1
+
+            $bodyBox = $slide.Shapes.AddTextbox(1, 54, 110, 620, 330)
+            $bodyRange = $bodyBox.TextFrame.TextRange
+            $bodyRange.Text = ($slideData.Lines -join "`r`n")
+            $bodyRange.Font.Size = 20
+
+            for ($i = 1; $i -le $slideData.Lines.Count; $i++) {
+                $paragraph = $bodyRange.Paragraphs($i)
+                $paragraph.ParagraphFormat.Bullet.Visible = -1
+            }
+        }
+
+        if (Test-Path -LiteralPath $DestinationPath) {
+            Remove-Item -LiteralPath $DestinationPath -Force
+        }
+        $presentation.SaveAs($DestinationPath)
+    } finally {
+        if ($presentation) { $presentation.Close() }
+        if ($powerPoint) { $powerPoint.Quit() | Out-Null }
+    }
+}
+
 $reportParagraphs = @(
     (New-DocParagraph -Text "Fast F1 CUDA Ghost Car Project Report" -Style "Title"),
     (New-DocParagraph -Text "1. Project overview" -Style "Heading1"),
@@ -401,7 +467,7 @@ $docxPath = Join-Path $outputRoot "fastf1_cuda_ghost_car_project_report.docx"
 $pptxPath = Join-Path $outputRoot "fastf1_cuda_ghost_car_presentation.pptx"
 
 New-DocxPackage -DestinationPath $docxPath -Paragraphs $reportParagraphs
-New-PptxPackage -DestinationPath $pptxPath -Slides $slides
+New-PowerPointDeck -DestinationPath $pptxPath -Slides $slides
 
 Write-Output "Wrote $docxPath"
 Write-Output "Wrote $pptxPath"
