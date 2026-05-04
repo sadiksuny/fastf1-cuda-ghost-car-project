@@ -14,6 +14,9 @@ void write_html_viewer(const std::string& output_path,
                        std::size_t num_frames,
                        int frame_delay_ms,
                        const UiOptions& options) {
+  // The viewer is a self-contained local artifact. Keeping it as plain HTML and
+  // JavaScript makes the replay easy to share and inspect without shipping a
+  // separate native UI layer.
   std::ofstream out(output_path, std::ios::binary);
   if (!out.is_open()) {
     throw std::runtime_error("Failed to open HTML viewer output: " + output_path);
@@ -90,11 +93,10 @@ void write_html_viewer(const std::string& output_path,
 void run_prototype_ui(const lap::DeltaResult& delta, const UiOptions& options) {
   std::filesystem::create_directories("output");
 
-  std::cout << "Prototype settings:\n"
-            << "  smoothing: " << (options.smoothing ? "on" : "off") << "\n";
-
   const std::size_t num_frames = 300;
   constexpr int frame_delay_ms = 100;
+  // Clamp the animation to the shorter lap so both drivers always have a valid
+  // sampled position in every generated frame.
   const float max_time_s = std::min(delta.reference.t.back(), delta.compare.t.back());
   for (std::size_t frame = 0; frame < num_frames; ++frame) {
     const float frame_time_s = max_time_s * static_cast<float>(frame) / static_cast<float>(num_frames - 1);

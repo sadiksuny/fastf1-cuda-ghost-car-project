@@ -4,3 +4,4 @@ output/
 .fastf1_cache/
 
 report_slides/
+scripts/build_project_docx.ps1

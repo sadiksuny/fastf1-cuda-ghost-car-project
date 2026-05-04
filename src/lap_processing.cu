@@ -14,12 +14,16 @@
 namespace lap {
 namespace {
 
+// Centralized CUDA error handling keeps every host-side launch/copy site
+// readable while still surfacing meaningful diagnostics to the caller.
 inline void cuda_check(cudaError_t status, const char* context) {
   if (status != cudaSuccess) {
     throw std::runtime_error(std::string(context) + ": " + cudaGetErrorString(status));
   }
 }
 
+// Converts per-sample positions into segment lengths so an inclusive scan can
+// build cumulative distance for the whole lap.
 __global__ void segment_lengths_kernel(const float* x, const float* y, float* segment_lengths, int n) {
   const int idx = blockIdx.x * blockDim.x + threadIdx.x;
   if (idx >= n) {
@@ -36,6 +40,8 @@ __global__ void segment_lengths_kernel(const float* x, const float* y, float* se
   segment_lengths[idx] = sqrtf(dx * dx + dy * dy);
 }
 
+// Device-side lower_bound lets each resampling thread locate the source segment
+// that brackets its target distance value.
 __device__ int lower_bound_device(const float* arr, int n, float value) {
   int left = 0;
   int right = n;
@@ -50,6 +56,9 @@ __device__ int lower_bound_device(const float* arr, int n, float value) {
   return left;
 }
 
+// Resamples all lap channels onto a shared distance grid. Carrying speed,
+// throttle, and brake through this step means the renderer can treat them as
+// time-aligned overlays later.
 __global__ void resample_kernel(const float* source_s,
                                 const float* source_x,
                                 const float* source_y,
@@ -106,6 +115,8 @@ __global__ void resample_kernel(const float* source_s,
   out_brake[idx] = source_brake[lower] + alpha * (source_brake[upper] - source_brake[lower]);
 }
 
+// The delta curve is defined as compare minus reference, which keeps positive
+// values aligned with compare being slower.
 __global__ void delta_kernel(const float* cmp_t, const float* ref_t, float* delta_t, int n) {
   const int idx = blockIdx.x * blockDim.x + threadIdx.x;
   if (idx >= n) {
@@ -114,6 +125,8 @@ __global__ void delta_kernel(const float* cmp_t, const float* ref_t, float* delt
   delta_t[idx] = cmp_t[idx] - ref_t[idx];
 }
 
+// Clears the RGB frame to a neutral dark background before the track and
+// overlays are painted.
 __global__ void clear_image_kernel(unsigned char* image, int pixel_count) {
   const int idx = blockIdx.x * blockDim.x + threadIdx.x;
   if (idx >= pixel_count) {
@@ -124,6 +137,7 @@ __global__ void clear_image_kernel(unsigned char* image, int pixel_count) {
   image[idx * 3 + 2] = 10;
 }
 
+// Shared primitive used by all device-side drawing helpers.
 __device__ void set_rgb(unsigned char* image, int width, int height, int x, int y,
                         unsigned char r, unsigned char g, unsigned char b) {
   if (x < 0 || x >= width || y < 0 || y >= height) {
@@ -135,6 +149,7 @@ __device__ void set_rgb(unsigned char* image, int width, int height, int x, int 
   image[pixel + 2] = b;
 }
 
+// Maps signed delta values onto the project's blue-to-red comparison palette.
 __device__ void lerp_color_device(float v, unsigned char& r, unsigned char& g, unsigned char& b) {
   const float clamped = fmaxf(-1.0f, fminf(1.0f, v));
   if (clamped < 0.0f) {
@@ -150,6 +165,9 @@ __device__ void lerp_color_device(float v, unsigned char& r, unsigned char& g, u
   b = static_cast<unsigned char>(255.0f * a);
 }
 
+// The following draw_* helpers intentionally keep the CUDA overlay path
+// self-contained. That avoids a second CPU compositing pass for text, legend,
+// and marker annotations.
 __device__ void draw_rect_device(unsigned char* image, int width, int height,
                                  int x0, int y0, int x1, int y1,
                                  unsigned char r, unsigned char g, unsigned char b) {
@@ -246,6 +264,8 @@ __device__ unsigned char glyph_row_for(char ch, int row) {
   }
 }
 
+// Simple bitmap text is used instead of a font dependency so labels can be
+// rendered entirely inside a CUDA kernel.
 __device__ void draw_char_device(unsigned char* image, int width, int height,
                                  int x, int y, char ch,
                                  unsigned char r, unsigned char g, unsigned char b,
@@ -325,6 +345,8 @@ __global__ void overlay_render_kernel(unsigned char* image,
     return;
   }
 
+  // A single thread composes the small UI layer because the amount of work is
+  // tiny relative to the track rasterization pass and keeps the logic simple.
   const unsigned char bg_r = 18, bg_g = 18, bg_b = 18;
   const unsigned char outline_r = 220, outline_g = 220, outline_b = 220;
   const unsigned char text_r = 240, text_g = 240, text_b = 240;
@@ -444,6 +466,9 @@ __global__ void track_render_kernel(const float* ref_x,
                                     unsigned char* image,
                                     int width,
                                     int height) {
+  // Each source sample paints a small circular stamp in screen space. The
+  // result is intentionally point-based rather than anti-aliased geometry so
+  // the replay stays lightweight and deterministic.
   const int idx = blockIdx.x * blockDim.x + threadIdx.x;
   if (idx >= n) {
     return;
@@ -508,6 +533,9 @@ __global__ void smooth_kernel(const float* in, float* out, int n, int radius) {
   out[global_idx] = sum / static_cast<float>(count);
 }
 
+// Host wrapper for the cumulative-distance stage. The implementation allocates
+// only the temporary buffers needed for this step and frees them immediately so
+// the higher-level pipeline can stay modular.
 std::vector<float> compute_cumulative_distance_cuda(const std::vector<float>& x, const std::vector<float>& y) {
   if (x.size() != y.size() || x.empty()) {
     throw std::runtime_error("x and y must have same non-zero size");
@@ -541,6 +569,7 @@ std::vector<float> compute_cumulative_distance_cuda(const std::vector<float>& x,
   return cumulative;
 }
 
+// Builds the canonical shared distance axis for both laps.
 std::vector<float> make_uniform_grid(float s_end, std::size_t points) {
   std::vector<float> grid(points);
   const float denom = static_cast<float>(points - 1);
@@ -550,6 +579,7 @@ std::vector<float> make_uniform_grid(float s_end, std::size_t points) {
   return grid;
 }
 
+// Host-side entry point for GPU resampling of all telemetry channels.
 ResampledLap resample_cuda(const std::vector<float>& source_s,
                            const std::vector<float>& source_x,
                            const std::vector<float>& source_y,
@@ -645,6 +675,7 @@ ResampledLap resample_cuda(const std::vector<float>& source_s,
   return out;
 }
 
+// Host-side wrapper for delta and optional smoothing.
 std::vector<float> delta_cuda(const std::vector<float>& cmp_t, const std::vector<float>& ref_t, bool apply_smoothing) {
   const int n = static_cast<int>(cmp_t.size());
   float *d_cmp = nullptr, *d_ref = nullptr, *d_delta = nullptr, *d_smooth = nullptr;
@@ -680,6 +711,8 @@ std::vector<float> delta_cuda(const std::vector<float>& cmp_t, const std::vector
   return delta;
 }
 
+// Internal frame renderer that assumes the caller already resolved marker
+// positions and banner text for the current replay time.
 std::vector<unsigned char> render_frame_cuda_impl(const DeltaResult& delta,
                                                   const char* ref_label,
                                                   const char* cmp_label,
@@ -813,6 +846,8 @@ DeltaResult compute_delta_pipeline_cuda(const std::vector<float>& ref_x,
                                         const std::vector<float>& cmp_brake,
                                         std::size_t grid_points,
                                         bool apply_smoothing) {
+  // Validation happens once at the host boundary so the downstream kernels can
+  // assume coherent channel lengths.
   if (ref_x.size() != ref_y.size() || ref_x.size() != ref_t.size() ||
       cmp_x.size() != cmp_y.size() || cmp_x.size() != cmp_t.size()) {
     throw std::runtime_error("Input channels must have matching lengths");
@@ -847,6 +882,8 @@ std::vector<unsigned char> render_frame_cuda(const DeltaResult& delta,
                                              int height,
                                              bool overlay_speed,
                                              bool overlay_brake) {
+  // The renderer receives marker positions in world space and converts them to
+  // screen space using the same bounds as the track rasterization pass.
   const auto minmax_x = std::minmax_element(delta.reference.x.begin(), delta.reference.x.end());
   const auto minmax_y = std::minmax_element(delta.reference.y.begin(), delta.reference.y.end());
   const float min_x = *minmax_x.first;
@@ -860,6 +897,8 @@ std::vector<unsigned char> render_frame_cuda(const DeltaResult& delta,
   const int cmp_px = 10 + static_cast<int>((compare_x - min_x) * scale_x);
   const int cmp_py = 10 + static_cast<int>((compare_y - min_y) * scale_y);
 
+  // CUDA-side text rendering only understands a narrow ASCII subset, so labels
+  // are normalized before they are copied to fixed-size device buffers.
   auto sanitize_label = [](const std::string& text) {
     std::array<char, 32> out{};
     std::size_t n = 0;
@@ -881,6 +920,8 @@ std::vector<unsigned char> render_frame_cuda(const DeltaResult& delta,
   const auto ref_label = sanitize_label(reference_label);
   const auto cmp_label = sanitize_label(compare_label);
 
+  // Lead banner formatting is resolved on the host so the device-side overlay
+  // kernel only has to paint prepared strings.
   std::string leader = std::string(ref_label.data());
   unsigned char lead_r = 0, lead_g = 255, lead_b = 0;
   float magnitude = delta_t_value;

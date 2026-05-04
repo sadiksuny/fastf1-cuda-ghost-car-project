@@ -17,6 +17,9 @@ Image render_track_frame(const lap::DeltaResult& delta,
                          bool overlay_brake,
                          int width,
                          int height) {
+  // The replay is defined in time rather than by raw sample index. This keeps
+  // the visual notion of "ahead" aligned with the lead banner and the actual
+  // track position of each driver.
   auto sample_position_at_time = [](const lap::ResampledLap& lap_data, float time_s) {
     if (lap_data.t.empty()) {
       return std::pair<float, float>{0.0f, 0.0f};
@@ -64,6 +67,8 @@ Image render_track_frame(const lap::DeltaResult& delta,
   const auto [cmp_x, cmp_y] = sample_position_at_time(delta.compare, frame_time_s);
   const float delta_t_value = sample_delta_at_time(frame_time_s);
 
+  // The CUDA renderer expects both the track-aligned lap data and the current
+  // marker state for the requested frame.
   const auto gpu_image = lap::render_frame_cuda(
       delta,
       frame_time_s,
@@ -92,6 +97,8 @@ Image render_track_frame(const lap::DeltaResult& delta,
 }
 
 void write_bmp(const Image& image, const std::string& path) {
+  // BMP is intentionally simple: no external dependencies, predictable binary
+  // layout, and broad default support on Windows.
   const int row_stride = image.width * 3;
   const int padded_stride = (row_stride + 3) & ~3;
   const int pixel_bytes = padded_stride * image.height;

@@ -30,6 +30,12 @@ EXPORT_MODES = (
 
 
 def _laps_for_mode(laps, driver: str, mode: str):
+    """Return the lap subset implied by the requested export mode.
+
+    The native picker supports both a lightweight "best representative lap"
+    workflow and more exploratory multi-lap workflows. Keeping the selection
+    policy here makes the exported folder format predictable.
+    """
     driver_laps = laps.pick_driver(driver)
     if driver_laps.empty:
         raise ValueError(f"No laps found for driver '{driver}'.")
@@ -59,6 +65,7 @@ def _laps_for_mode(laps, driver: str, mode: str):
 
 
 def _pick_lap(laps, driver: str, lap_number: int | None, mode: str):
+    """Resolve the one lap used for direct two-file exports."""
     driver_laps = _laps_for_mode(laps, driver, mode)
 
     if lap_number is not None:
@@ -77,6 +84,7 @@ def _pick_lap(laps, driver: str, lap_number: int | None, mode: str):
 
 
 def _format_lap_time(lap_time) -> str:
+    """Format pandas/Timedelta lap values as motorsport-style M:SS.mmm text."""
     if lap_time is None:
         return "unknown"
     total_seconds = lap_time.total_seconds()
@@ -86,6 +94,12 @@ def _format_lap_time(lap_time) -> str:
 
 
 def _telemetry_to_csv_frame(lap) -> pd.DataFrame:
+    """Merge positional and car telemetry into the CSV schema consumed by C++.
+
+    Fast-F1 exposes position and car channels on separate sampling schedules.
+    merge_asof keeps the export simple while still producing a replay-friendly
+    single time axis.
+    """
     pos = lap.get_pos_data().loc[:, ["Date", "X", "Y"]].copy()
     car = lap.get_car_data().loc[:, ["Date", "Speed", "Throttle", "Brake"]].copy()
 
@@ -123,6 +137,7 @@ def _telemetry_to_csv_frame(lap) -> pd.DataFrame:
 
 
 def _lap_filename(driver: str, lap) -> str:
+    """Generate stable per-lap filenames for multi-lap session exports."""
     lap_no = int(lap["LapNumber"]) if "LapNumber" in lap else -1
     if lap_no >= 0:
         return f"{driver.upper()}_lap_{lap_no}.csv"
@@ -136,6 +151,7 @@ def _export_driver_lap(
     output_path: Path,
     mode: str,
 ) -> dict[str, object]:
+    """Export one selected lap and return the manifest metadata for it."""
     lap = _pick_lap(session.laps, driver.upper(), lap_number, mode)
     frame = _telemetry_to_csv_frame(lap)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -161,6 +177,12 @@ def _export_driver_laps_for_directory(
     export_dir: Path,
     mode: str,
 ) -> list[dict[str, object]]:
+    """Export the session-folder contents for one driver.
+
+    The fastest-lap mode keeps the short historical filename format for
+    convenience. Multi-lap modes switch to one file per lap so the native
+    picker can offer specific lap choices later.
+    """
     driver_laps = _laps_for_mode(session.laps, driver.upper(), mode)
     exported_entries: list[dict[str, object]] = []
 
@@ -212,11 +234,13 @@ def _export_driver_laps_for_directory(
 
 
 def _driver_codes(session) -> list[str]:
+    """Return sorted unique driver codes available in the loaded session."""
     codes = session.laps["Driver"].dropna().astype(str).unique().tolist()
     return sorted(code.strip().upper() for code in codes if code.strip())
 
 
 def build_parser() -> argparse.ArgumentParser:
+    """Define the command-line interface for one-off and session-wide exports."""
     parser = argparse.ArgumentParser(
         description="Export one or two Fast-F1 laps into CSV files for the ghost car app."
     )
@@ -265,6 +289,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
+    """Entry point for exporting one comparison pair or an entire session."""
     parser = build_parser()
     args = parser.parse_args()
 

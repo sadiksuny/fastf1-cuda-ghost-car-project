@@ -5,6 +5,9 @@
 
 namespace telemetry {
 
+// Raw telemetry channels loaded from CSV or generated synthetically for quick
+// smoke tests. The optional channels are always sized to match x/y/t once a lap
+// is successfully loaded so downstream code can assume consistent vector sizes.
 struct TelemetryLap {
   std::vector<float> x;
   std::vector<float> y;
@@ -21,6 +24,9 @@ struct TelemetryLap {
 
 // CSV format:
 // x,y,t[,speed,throttle,brake]
+//
+// Header rows are tolerated. If the optional telemetry channels are absent they
+// are back-filled with zeros so the CUDA pipeline can still run.
 TelemetryLap load_lap_csv(const std::string& path);
 
 // Creates a simple oval sample lap for quick testing.

@@ -20,6 +20,9 @@ param(
     [string]$CacheDir = ".fastf1_cache"
 )
 
+# Convenience wrapper for the most common Windows workflow:
+# 1. export a reference and compare lap with Fast-F1
+# 2. launch the native CUDA application against those CSVs
 $ErrorActionPreference = "Stop"
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
@@ -37,6 +40,8 @@ if (-not $pythonCmd) {
     throw "Neither 'py' nor 'python' was found on PATH. Activate your Anaconda environment first, then rerun this script."
 }
 
+# Build the exporter invocation as an argument array so paths with spaces stay
+# intact and optional lap overrides remain easy to append.
 $exportArgs = @(
     $exportScript,
     "--year", $Year,
@@ -63,5 +68,5 @@ if (-not (Test-Path $exePath)) {
     throw "App executable not found at $exePath. Build the project first."
 }
 
- $appArgs = @($refCsv, $cmpCsv, $ReferenceDriver, $CompareDriver)
+$appArgs = @($refCsv, $cmpCsv, $ReferenceDriver, $CompareDriver)
 & $exePath @appArgs

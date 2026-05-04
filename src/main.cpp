@@ -16,6 +16,8 @@
 
 namespace {
 
+// One exported lap entry from a session folder. The label is the driver code
+// and the remaining fields describe the exact CSV file and lap metadata.
 struct SessionDriverEntry {
   std::string label;
   std::filesystem::path csv_path;
@@ -23,17 +25,23 @@ struct SessionDriverEntry {
   std::string lap_time;
 };
 
+// Driver-centered view of the manifest. The picker works in two stages:
+// choose a driver, then choose one of that driver's exported laps.
 struct SessionDriverGroup {
   std::string label;
   std::vector<SessionDriverEntry> laps;
 };
 
+// Parsed subset of session_manifest.json. The native app keeps the parser light
+// and only reads the fields needed for display and lap selection.
 struct SessionManifestInfo {
   std::string session_label;
   std::string lap_mode;
   std::vector<SessionDriverEntry> entries;
 };
 
+// Manifest parsing accepts lightly formatted JSON text written by the exporter.
+// Trimming early keeps the simple regex-based reader less brittle.
 std::string trim_copy(std::string value) {
   value.erase(value.begin(), std::find_if(value.begin(), value.end(), [](unsigned char c) {
     return !std::isspace(c);
@@ -44,6 +52,8 @@ std::string trim_copy(std::string value) {
   return value;
 }
 
+// Exported Fast-F1 session codes are short and machine-friendly. The viewer is
+// easier to read when those codes are expanded into normal motorsport labels.
 std::string expand_session_code(std::string session_code) {
   session_code = trim_copy(session_code);
   std::transform(session_code.begin(), session_code.end(), session_code.begin(), [](unsigned char c) {
@@ -90,6 +100,8 @@ SessionManifestInfo read_session_manifest(const std::filesystem::path& folder) {
   buffer << in.rdbuf();
   const std::string text = buffer.str();
 
+  // The manifest format is intentionally simple, so a small targeted regex
+  // parser is enough here and avoids adding a full JSON dependency to the app.
   const std::regex session_rx(
       R"manifest("session"\s*:\s*\{[^}]*"year"\s*:\s*(\d+)[^}]*"event"\s*:\s*"([^"]+)"[^}]*"session"\s*:\s*"([^"]+)")manifest");
   std::smatch session_match;
@@ -131,6 +143,8 @@ std::string describe_lap_mode(const std::string& lap_mode) {
   return {};
 }
 
+// Standardized human-readable label used in both the terminal picker and the
+// generated HTML viewer.
 std::string build_lap_label(const SessionDriverEntry& entry) {
   if (entry.lap_number < 0 && entry.lap_time.empty()) {
     return {};
@@ -146,6 +160,9 @@ std::string build_lap_label(const SessionDriverEntry& entry) {
   return label;
 }
 
+// Converts formatted lap times such as 1:12.345 into sortable seconds. Unknown
+// values are pushed to infinity so a real timed lap wins when selecting the
+// fastest exported default.
 double parse_lap_time_seconds(const std::string& lap_time_text) {
   if (lap_time_text.empty() || lap_time_text == "unknown") {
     return std::numeric_limits<double>::infinity();
@@ -176,6 +193,8 @@ const SessionDriverEntry& fastest_lap_entry(const SessionDriverGroup& group) {
   });
 }
 
+// Uses the manifest when available so multi-lap exports retain driver, lap, and
+// session metadata. The fallback path still supports plain folders of CSV files.
 std::vector<SessionDriverEntry> list_session_lap_entries(const std::filesystem::path& folder) {
   const auto manifest = read_session_manifest(folder);
   if (!manifest.entries.empty()) {
@@ -206,6 +225,8 @@ std::vector<SessionDriverEntry> list_session_lap_entries(const std::filesystem::
   return entries;
 }
 
+// Groups a flat list of manifest entries into the two-stage driver/lap picker
+// model used by the terminal UI.
 std::vector<SessionDriverGroup> group_session_entries(const std::vector<SessionDriverEntry>& entries) {
   std::vector<SessionDriverGroup> groups;
   for (const auto& entry : entries) {
@@ -231,6 +252,8 @@ std::vector<SessionDriverGroup> group_session_entries(const std::vector<SessionD
   return groups;
 }
 
+// Accept either a numbered entry or a three-letter driver code so the picker
+// remains fast to use even with large session folders.
 int prompt_driver_choice(const std::vector<SessionDriverGroup>& groups, const std::string& prompt) {
   while (true) {
     std::cout << prompt;
@@ -267,6 +290,10 @@ int prompt_driver_choice(const std::vector<SessionDriverGroup>& groups, const st
   }
 }
 
+// Supports three ways of selecting the final lap:
+// 1. list position from the displayed lap menu
+// 2. actual lap number from the session
+// 3. D / DEFAULT / FASTEST for the quickest exported lap
 int prompt_lap_choice(const SessionDriverGroup& group, const std::string& prompt) {
   while (true) {
     std::cout << prompt;
@@ -323,6 +350,8 @@ int main(int argc, char** argv) {
     std::string reference_lap_label;
     std::string compare_lap_label;
 
+    // Folder mode is the richest workflow: export a session once, then browse
+    // drivers and laps interactively without rerunning Python.
     if (argc == 2 && std::filesystem::is_directory(argv[1])) {
       const auto session_folder = std::filesystem::path(argv[1]);
       const auto manifest = read_session_manifest(session_folder);
@@ -387,6 +416,7 @@ int main(int argc, char** argv) {
       cmp_lap = telemetry::load_lap_csv(compare_entry.csv_path.string());
       std::cout << "Loaded telemetry for " << reference_label << " vs " << compare_label << ".\n";
     } else if (argc >= 3) {
+      // Direct CSV mode is still useful for quick comparisons and scripting.
       ref_lap = telemetry::load_lap_csv(argv[1]);
       cmp_lap = telemetry::load_lap_csv(argv[2]);
       std::cout << "Loaded telemetry from CSV files.\n";
@@ -397,6 +427,8 @@ int main(int argc, char** argv) {
         compare_label = argv[4];
       }
     } else {
+      // Built-in sample data keeps the executable demoable even before a user
+      // has real telemetry exported.
       std::cout << "No CSV files supplied. Using built-in sample laps.\n";
       ref_lap = telemetry::make_sample_lap(120.0f, 80.0f, 90.0f, 400, 0.0f);
       cmp_lap = telemetry::make_sample_lap(120.0f, 80.0f, 91.4f, 420, 0.05f);
@@ -406,6 +438,8 @@ int main(int argc, char** argv) {
 
     constexpr std::size_t grid_points = 512;
     constexpr bool smoothing = true;
+    // All heavy lap alignment and delta work flows through the CUDA pipeline so
+    // the host side only has to coordinate inputs and viewer output.
     const auto delta = lap::compute_delta_pipeline_cuda(
         ref_lap.x, ref_lap.y, ref_lap.t,
         ref_lap.speed, ref_lap.throttle, ref_lap.brake,

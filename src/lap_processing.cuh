@@ -6,6 +6,10 @@
 
 namespace lap {
 
+// Uniform lap representation after both source laps have been projected onto the
+// same cumulative-distance grid. The extra telemetry channels are carried
+// forward so the renderer can enrich the replay without going back to the raw
+// CSV inputs.
 struct ResampledLap {
   std::vector<float> s;
   std::vector<float> x;
@@ -16,6 +20,9 @@ struct ResampledLap {
   std::vector<float> brake;
 };
 
+// Final output of the comparison pipeline. Both laps have the same sample count
+// and the delta curve is defined sample-for-sample along the shared distance
+// grid.
 struct DeltaResult {
   ResampledLap reference;
   ResampledLap compare;
@@ -41,6 +48,9 @@ DeltaResult compute_delta_pipeline_cuda(const std::vector<float>& ref_x,
                                         std::size_t grid_points,
                                         bool apply_smoothing);
 
+// Produces a fully composed RGB frame for a single replay timestamp. The caller
+// supplies the current marker positions and current delta value so the renderer
+// can keep the track view, lead banner, and labels synchronized.
 std::vector<unsigned char> render_frame_cuda(const DeltaResult& delta,
                                              float frame_time_s,
                                              const std::string& reference_label,
