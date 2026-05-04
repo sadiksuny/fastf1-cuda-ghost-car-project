@@ -2,5 +2,5 @@ build/
 output/
 *.ppm
 .fastf1_cache/
-data/fastf1_ref.csv
-data/fastf1_cmp.csv
+
+report_slides/
