@@ -63,4 +63,5 @@ if (-not (Test-Path $exePath)) {
     throw "App executable not found at $exePath. Build the project first."
 }
 
-& $exePath $refCsv $cmpCsv $ReferenceDriver $CompareDriver
+ $appArgs = @($refCsv, $cmpCsv, $ReferenceDriver, $CompareDriver)
+& $exePath @appArgs

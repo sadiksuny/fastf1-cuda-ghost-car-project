@@ -2,6 +2,7 @@
 
 #include "renderer.h"
 
+#include <algorithm>
 #include <filesystem>
 #include <fstream>
 #include <iostream>
@@ -40,10 +41,12 @@ void write_html_viewer(const std::string& output_path,
          "<body>\n"
          "  <div class=\"wrap\">\n"
          "    <h1>Ghost Car Viewer</h1>\n"
-         "    <p>Native C++ output viewer for the generated frame sequence.</p>\n"
          "    <div class=\"meta\">\n"
       << "      <div class=\"chip\">Reference: " << options.reference_label << "</div>\n"
       << "      <div class=\"chip\">Compare: " << options.compare_label << "</div>\n"
+      << (options.session_label.empty() ? std::string() : std::string("      <div class=\"chip\">Session: ") + options.session_label + "</div>\n")
+      << (options.reference_lap_label.empty() ? std::string() : std::string("      <div class=\"chip\">Ref lap: ") + options.reference_lap_label + "</div>\n")
+      << (options.compare_lap_label.empty() ? std::string() : std::string("      <div class=\"chip\">Cmp lap: ") + options.compare_lap_label + "</div>\n")
       << "      <div class=\"chip\">Frames: " << num_frames << "</div>\n"
          "    </div>\n"
          "    <div class=\"viewer\">\n"
@@ -87,14 +90,11 @@ void write_html_viewer(const std::string& output_path,
 void run_prototype_ui(const lap::DeltaResult& delta, const UiOptions& options) {
   std::filesystem::create_directories("output");
 
-  std::cout << "Prototype toggles:\n"
-            << "  best lap mode: " << (options.best_lap_mode ? "on" : "off") << "\n"
-            << "  smoothing: " << (options.smoothing ? "on" : "off") << "\n"
-            << "  speed overlay: " << (options.telemetry_overlay_speed ? "on" : "off") << "\n"
-            << "  brake overlay: " << (options.telemetry_overlay_brake ? "on" : "off") << "\n";
+  std::cout << "Prototype settings:\n"
+            << "  smoothing: " << (options.smoothing ? "on" : "off") << "\n";
 
-  const std::size_t num_frames = 120;
-  constexpr int frame_delay_ms = 160;
+  const std::size_t num_frames = 300;
+  constexpr int frame_delay_ms = 100;
   const float max_time_s = std::min(delta.reference.t.back(), delta.compare.t.back());
   for (std::size_t frame = 0; frame < num_frames; ++frame) {
     const float frame_time_s = max_time_s * static_cast<float>(frame) / static_cast<float>(num_frames - 1);
@@ -103,18 +103,18 @@ void run_prototype_ui(const lap::DeltaResult& delta, const UiOptions& options) {
         frame_time_s,
         options.reference_label,
         options.compare_label,
+        options.telemetry_overlay_speed,
+        options.telemetry_overlay_brake,
         800,
         600);
-    const std::string ppm_path = "output/frame_" + std::to_string(frame) + ".ppm";
     const std::string bmp_path = "output/frame_" + std::to_string(frame) + ".bmp";
-    render::write_ppm(image, ppm_path);
     render::write_bmp(image, bmp_path);
   }
 
   write_html_viewer("output/viewer.html", num_frames, frame_delay_ms, options);
 
   std::cout << "Wrote " << num_frames
-            << " rendered frames to ./output (PPM + BMP) and wrote ./output/viewer.html.\n";
+            << " rendered frames to ./output (BMP) and wrote ./output/viewer.html.\n";
 }
 
 }  // namespace ui

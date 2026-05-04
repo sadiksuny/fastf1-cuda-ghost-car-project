@@ -57,6 +57,10 @@ TelemetryLap load_lap_csv(const std::string& path) {
       lap.speed.push_back(values[3]);
       lap.throttle.push_back(values[4]);
       lap.brake.push_back(values[5]);
+    } else {
+      lap.speed.push_back(0.0f);
+      lap.throttle.push_back(0.0f);
+      lap.brake.push_back(0.0f);
     }
   }
 

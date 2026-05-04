@@ -8,11 +8,13 @@ namespace ui {
 
 struct UiOptions {
   bool smoothing = true;
-  bool best_lap_mode = true;
-  bool telemetry_overlay_speed = false;
-  bool telemetry_overlay_brake = false;
+  bool telemetry_overlay_speed = true;
+  bool telemetry_overlay_brake = true;
+  std::string session_label;
   std::string reference_label = "REF";
   std::string compare_label = "CMP";
+  std::string reference_lap_label;
+  std::string compare_lap_label;
 };
 
 void run_prototype_ui(const lap::DeltaResult& delta, const UiOptions& options);

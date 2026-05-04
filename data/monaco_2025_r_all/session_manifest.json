@@ -1,0 +1,8548 @@
+{
+  "session": {
+    "year": 2025,
+    "event": "Monaco",
+    "session": "R",
+    "lap_mode": "all-laps"
+  },
+  "entries": [
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:31.479"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:52.152"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.346"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:36.006"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.465"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:21.426"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:21.287"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:20.471"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:24.151"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.528"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.447"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.660"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:19.244"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:19.817"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:20.143"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.692"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:20.978"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:20.235"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.279"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:17.928"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.096"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.001"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.556"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:16.954"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.653"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:17.264"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:17.185"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:16.701"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:16.969"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:16.888"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:16.870"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:32.994"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:22.236"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:20.232"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:16.381"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:16.185"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:16.153"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:15.529"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:15.303"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:32.156"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:21.398"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:18.819"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:18.638"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:19.225"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:19.224"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.332"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:19.173"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:20.193"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.234"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:19.166"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:19.828"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:20.130"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:19.403"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:17.389"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:17.086"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:19.159"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:16.136"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:15.795"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:15.509"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:15.726"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:16.046"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:16.370"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:15.082"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:16.228"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:15.156"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:14.870"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:14.928"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:14.885"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.790"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.010"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:15.751"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:15.870"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:15.150"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:14.597"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:14.600"
+    },
+    {
+      "driver": "ALB",
+      "file": "ALB_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:14.776"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:28.332"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:47.072"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:49.211"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:39.675"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.940"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.424"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:20.222"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:19.105"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:22.183"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:20.167"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:17.469"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:17.319"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:16.411"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.295"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:15.593"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:34.168"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:20.283"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:16.840"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:17.226"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:17.267"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.921"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:18.938"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:17.947"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.748"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.685"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:16.293"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:16.744"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:16.414"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:16.279"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:17.307"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:16.142"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:16.088"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:15.823"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:17.347"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:16.024"
+    },
+    {
+      "driver": "ALO",
+      "file": "ALO_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:16.200"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:34.721"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:51.408"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.871"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:36.575"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.377"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.757"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:21.194"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:20.877"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:23.326"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.523"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.894"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.788"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:18.868"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:19.075"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:19.858"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.745"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:21.182"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:20.136"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.624"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:18.842"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.914"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.273"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.973"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:16.939"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:18.777"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:19.479"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:19.446"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:19.910"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:19.074"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:20.406"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:19.809"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:19.689"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:19.344"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:18.763"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:19.458"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:19.869"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.870"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.381"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.721"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.950"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:18.060"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.120"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:18.310"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:18.885"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:19.251"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.265"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:20.131"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:18.844"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.328"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:19.093"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:20.341"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:21.962"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:19.263"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:19.603"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:18.966"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:18.296"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:18.511"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:18.393"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:19.056"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.697"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:18.590"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:18.448"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.884"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:18.457"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:17.696"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:17.398"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:15.551"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:15.019"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:34.121"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:19.503"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:31.512"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:19.009"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:13.651"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:13.518"
+    },
+    {
+      "driver": "ANT",
+      "file": "ANT_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:14.834"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "2:19.932"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:50.654"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:50.334"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:22.127"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:15.576"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:14.855"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:15.058"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:18.303"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:16.467"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:19.555"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:20.017"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.401"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:19.680"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:18.386"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:19.194"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.638"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:37.866"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:18.426"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:16.285"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:16.530"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.189"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:16.562"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.542"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.056"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:18.369"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:18.034"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:17.000"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:17.126"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:21.565"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:18.778"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:19.927"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:20.227"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:18.784"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:19.725"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:18.006"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:19.059"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.885"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.333"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.791"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.768"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:18.741"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.424"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:17.648"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:18.511"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:19.057"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.294"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:20.078"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:18.965"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:17.921"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:19.103"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:22.205"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:19.988"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:20.306"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:18.820"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:18.659"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:18.306"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:18.584"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:18.038"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:19.233"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.669"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:18.715"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:18.364"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.836"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:18.404"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:17.177"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:17.748"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:16.362"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:17.602"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.187"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.663"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:15.748"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:15.427"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:15.355"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:15.365"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:15.799"
+    },
+    {
+      "driver": "BEA",
+      "file": "BEA_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:17.224"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "2:25.564"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:49.746"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:49.362"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:23.609"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:16.394"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:15.757"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:15.721"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:18.331"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:18.411"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:16.782"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:16.256"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:17.804"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:19.088"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:18.481"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:18.647"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.378"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:20.937"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:19.222"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.729"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:19.335"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.718"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.664"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:17.216"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.286"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.965"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:36.175"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:20.209"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:16.020"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:15.193"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:15.543"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:18.214"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:19.347"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:19.276"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:19.276"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:35.247"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:18.607"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:14.884"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:14.970"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:15.888"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:16.335"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:16.847"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.678"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:17.037"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:18.350"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:18.458"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.853"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:20.127"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:18.016"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.411"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:19.679"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:20.698"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:20.809"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:19.965"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:18.704"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:18.823"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:18.451"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:18.438"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:18.118"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:18.997"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.808"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:18.797"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:18.266"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.906"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:22.158"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:18.960"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:17.324"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:17.412"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:17.248"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.985"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:17.096"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.484"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.624"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.774"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:16.831"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.681"
+    },
+    {
+      "driver": "BOR",
+      "file": "BOR_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:16.867"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:36.577"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:50.894"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.913"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:36.476"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:19.999"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.746"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:20.915"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:20.987"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:23.197"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.709"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.851"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.827"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:35.917"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:20.062"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:15.509"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:15.435"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:17.547"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:18.351"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:18.851"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:19.296"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:18.214"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.808"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:17.626"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.233"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.209"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:35.572"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:20.237"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:18.135"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:15.914"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:15.298"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:16.007"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:19.845"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:18.528"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:18.704"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:18.670"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:17.955"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.660"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.728"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.889"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.443"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:18.866"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.798"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:17.541"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:18.439"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:18.710"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:20.190"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:19.889"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:18.240"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.159"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:19.965"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:20.722"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:20.423"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:20.255"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:18.710"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:18.692"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:18.489"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:18.426"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:18.249"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:19.063"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.687"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:18.878"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:18.214"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.877"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:18.379"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:17.338"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:17.517"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:18.018"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:17.100"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.703"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.707"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.256"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.135"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:15.669"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:15.564"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:15.920"
+    },
+    {
+      "driver": "COL",
+      "file": "COL_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:15.435"
+    },
+    {
+      "driver": "GAS",
+      "file": "GAS_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:52.223"
+    },
+    {
+      "driver": "GAS",
+      "file": "GAS_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:48.974"
+    },
+    {
+      "driver": "GAS",
+      "file": "GAS_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.723"
+    },
+    {
+      "driver": "GAS",
+      "file": "GAS_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:31.509"
+    },
+    {
+      "driver": "GAS",
+      "file": "GAS_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:18.864"
+    },
+    {
+      "driver": "GAS",
+      "file": "GAS_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:18.054"
+    },
+    {
+      "driver": "GAS",
+      "file": "GAS_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:19.262"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:27.567"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:46.692"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:49.414"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:39.640"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.952"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.143"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:19.554"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:18.388"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:21.968"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:18.529"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:18.183"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:17.376"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:17.088"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:34.072"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:19.771"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:15.981"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:17.191"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:16.372"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:33.324"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:19.175"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:16.136"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:16.357"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:17.581"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.790"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.832"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:17.625"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:16.482"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:16.441"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:16.497"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:16.432"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:16.289"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:16.307"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:16.044"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:16.070"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:16.212"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:16.125"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:16.419"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:16.400"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:16.920"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:17.025"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:17.242"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:19.685"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:18.924"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:16.930"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:17.914"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.607"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:17.129"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:17.451"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.076"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:17.235"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:18.932"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:17.718"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:17.420"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:19.723"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:17.863"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:17.484"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:17.268"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:16.984"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:17.717"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.008"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:18.069"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:17.876"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.071"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:18.299"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:18.125"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:17.520"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:19.017"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:17.280"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.917"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:17.002"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.798"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.920"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.724"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:16.627"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.575"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:16.633"
+    },
+    {
+      "driver": "HAD",
+      "file": "HAD_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:16.798"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:29.406"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:51.437"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:49.212"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:34.730"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:21.057"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.225"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:20.931"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:19.039"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:22.018"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:20.528"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:17.120"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:17.530"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:16.799"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.151"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:15.991"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:15.941"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:14.977"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:31.862"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:18.042"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:15.065"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:15.750"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:15.003"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:15.012"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:15.212"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:14.698"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:14.804"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:14.533"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:15.420"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:16.810"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:15.884"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:15.648"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:15.676"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:16.536"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:17.566"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:17.826"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:17.218"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:17.288"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:15.938"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:15.446"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:14.951"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:15.111"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:14.984"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:14.854"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:14.686"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:14.849"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:15.323"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:15.703"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:15.113"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:15.569"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:15.694"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:15.559"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:15.494"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:16.185"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:16.217"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:16.657"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:33.566"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:21.468"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:18.349"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:16.686"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:15.767"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:15.431"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:14.916"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:14.193"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:16.306"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:16.238"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:16.659"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:16.016"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:15.861"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:15.585"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:15.257"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:15.088"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:14.273"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:14.090"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:15.388"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.317"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:16.537"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:16.522"
+    },
+    {
+      "driver": "HAM",
+      "file": "HAM_lap_78.csv",
+      "lap_number": 78,
+      "lap_time": "1:17.439"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:32.788"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:52.404"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.106"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:36.696"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.475"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.974"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:21.264"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:20.300"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:24.031"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.507"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.404"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:36.743"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:18.279"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.106"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:16.553"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:18.317"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:19.969"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:18.044"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.058"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:19.381"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:18.150"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.509"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:17.557"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.055"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.538"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:18.724"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:19.472"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:19.264"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:19.749"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:20.392"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:19.889"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:20.602"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:17.840"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:18.400"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:20.594"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:18.642"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.904"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.272"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.876"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.804"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:18.575"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.315"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:17.929"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:35.627"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:19.068"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:15.909"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:15.223"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:16.246"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.676"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:16.425"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:21.177"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:20.376"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:19.628"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:18.841"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:19.155"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:17.976"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:18.661"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:17.942"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:19.287"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.508"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:19.041"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:21.565"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:19.206"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:20.147"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:17.571"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:16.934"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:17.445"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:17.717"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.974"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.741"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.602"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.682"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.717"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:17.411"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.504"
+    },
+    {
+      "driver": "HUL",
+      "file": "HUL_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:18.954"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:30.523"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:52.308"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.504"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:35.354"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.766"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:21.542"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:21.507"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:20.351"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:24.550"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.421"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.348"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.771"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:19.391"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:19.572"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:20.161"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.692"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:20.979"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:20.225"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.333"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:17.398"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.057"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:16.734"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.784"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:16.712"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.590"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:17.456"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:17.040"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:16.902"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:16.740"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:16.607"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:33.531"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:19.201"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:18.285"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:16.425"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:15.942"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:20.271"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:15.890"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:15.964"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:15.800"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:32.467"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:20.883"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:16.743"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:15.931"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:15.958"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:15.605"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:15.476"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:15.461"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:15.418"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:15.567"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:15.479"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:15.399"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:15.377"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:15.356"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:15.321"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:15.597"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:16.960"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:16.583"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:17.684"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:16.772"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:16.672"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:16.173"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:16.864"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:17.611"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:17.155"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:19.159"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:16.955"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:17.409"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:17.363"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:17.136"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.905"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:17.053"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.392"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.597"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:17.066"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.757"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:16.028"
+    },
+    {
+      "driver": "LAW",
+      "file": "LAW_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:16.630"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:24.481"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:44.769"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.805"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:41.248"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:18.801"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:19.267"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:18.656"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:17.990"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:21.212"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:19.912"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.890"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:16.439"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:16.207"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.630"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:16.042"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:15.743"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:15.268"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:14.821"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:15.516"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:14.807"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:15.782"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:32.412"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:20.099"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:16.020"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:14.618"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:14.714"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:14.819"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:14.849"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:14.205"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:15.131"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:16.773"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:16.418"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:15.515"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:14.980"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:14.349"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:14.055"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:14.105"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:14.570"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:14.140"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:14.056"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:14.835"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:15.133"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:14.556"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:14.265"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:14.210"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:14.339"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:14.534"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:14.731"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:31.977"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:17.100"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:14.368"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:14.421"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:15.407"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:17.108"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:14.497"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:14.342"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:14.442"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:14.566"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:14.707"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:15.441"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:15.405"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:15.646"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:15.365"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:15.269"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:15.395"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:14.915"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:14.925"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:15.636"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.104"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.050"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.310"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.479"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.349"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:16.248"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.343"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:15.963"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:16.110"
+    },
+    {
+      "driver": "LEC",
+      "file": "LEC_lap_78.csv",
+      "lap_number": 78,
+      "lap_time": "1:15.369"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:23.340"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:44.634"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:49.015"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:41.564"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:18.050"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:19.172"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:18.470"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:17.626"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:22.148"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:20.385"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.771"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:16.300"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:15.988"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.122"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:15.673"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:14.914"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:14.659"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:15.280"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:32.254"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:18.033"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:15.259"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:14.846"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:15.315"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:15.220"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:14.400"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:14.727"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:14.622"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:14.618"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:15.777"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:17.259"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:16.797"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:14.711"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:14.642"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:14.689"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:14.184"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:14.785"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:14.670"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:14.907"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:14.141"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:15.237"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:14.026"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:14.419"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:14.174"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:13.872"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:14.384"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:14.177"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:14.357"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:15.701"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:16.684"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:30.893"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:18.237"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:15.039"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:15.848"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:16.308"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:14.993"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:14.821"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:14.676"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:15.159"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:15.107"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:15.584"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:15.199"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:15.514"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:15.301"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:15.313"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:15.478"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:14.968"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:15.007"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:15.615"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:15.984"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.238"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.362"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.380"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.355"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:16.287"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.405"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:15.836"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:15.717"
+    },
+    {
+      "driver": "NOR",
+      "file": "NOR_lap_78.csv",
+      "lap_number": 78,
+      "lap_time": "1:13.221"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:29.926"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:51.527"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:49.187"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:35.230"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.666"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.506"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:20.545"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:19.207"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:22.712"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:20.330"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:17.319"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:17.358"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:17.241"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.453"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:16.577"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:34.940"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:18.801"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:15.774"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:16.740"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:16.599"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.503"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:18.500"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:18.075"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.911"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.720"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:16.527"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:16.705"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:34.005"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:19.488"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:15.796"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:15.430"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:15.503"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:15.220"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:15.157"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:15.846"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:16.149"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:17.197"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:16.298"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.410"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:16.525"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:18.126"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:16.240"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:16.584"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:17.324"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:18.452"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:17.007"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:17.341"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:18.068"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.235"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:17.902"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:18.424"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:17.450"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:19.133"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:17.744"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:18.492"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:17.541"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:17.871"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:17.184"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:17.137"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:17.606"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:17.644"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:17.670"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.295"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:17.903"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:18.271"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:18.810"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:17.401"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:17.467"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.985"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:17.069"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.828"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.768"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.652"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:16.580"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.714"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:16.604"
+    },
+    {
+      "driver": "OCO",
+      "file": "OCO_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:16.747"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:26.141"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:46.466"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.176"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:40.676"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.048"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:19.793"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:19.261"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:18.029"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:22.281"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:19.160"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:17.335"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:17.393"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:16.748"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.412"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:15.522"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:15.643"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:15.457"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:14.934"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:15.049"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:33.720"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:18.014"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:13.818"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:17.790"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:15.487"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:14.940"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:14.960"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:14.772"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:15.556"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:14.736"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:14.868"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:15.735"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:16.822"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:16.325"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:15.947"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:14.819"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:15.107"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:15.396"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:14.475"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:14.594"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:14.344"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:14.297"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:14.137"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:15.181"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:14.676"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:15.124"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:14.875"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:14.092"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:31.028"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.461"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:14.121"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:14.713"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:14.087"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:14.004"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:14.703"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:16.244"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:15.113"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:14.810"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:14.830"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:13.916"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:13.745"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:14.485"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:15.213"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:14.381"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:15.204"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:14.661"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:15.106"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:15.014"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:15.260"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:15.638"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:15.899"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:15.595"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.141"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.214"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:16.193"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.139"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:15.909"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:16.523"
+    },
+    {
+      "driver": "PIA",
+      "file": "PIA_lap_78.csv",
+      "lap_number": 78,
+      "lap_time": "1:15.020"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:34.077"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:51.593"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.563"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:36.667"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.576"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.750"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:21.214"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:20.793"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:23.390"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.501"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.853"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.726"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:18.901"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:19.247"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:19.764"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.766"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:21.057"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:20.126"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.629"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:18.513"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.775"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.301"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.900"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:16.935"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:19.216"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:19.491"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:19.453"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:19.673"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:19.247"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:20.514"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:18.068"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:19.384"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:21.135"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:18.936"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:19.219"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:19.952"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.925"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.468"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.865"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.936"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:17.272"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.617"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:18.494"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:19.072"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:19.192"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.289"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:19.959"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:17.477"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:17.379"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:15.966"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:16.095"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:16.023"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:27.933"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:20.782"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:16.455"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:18.479"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:16.715"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:16.037"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:16.082"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:16.207"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:15.998"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:34.078"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:17.761"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:13.864"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:14.280"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:13.918"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:13.483"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:31.077"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:18.119"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:14.303"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:14.053"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:13.865"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:13.596"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:13.405"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:13.773"
+    },
+    {
+      "driver": "RUS",
+      "file": "RUS_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:14.490"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:32.413"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:51.609"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.386"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:36.808"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.580"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:21.056"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:21.577"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:20.384"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:23.673"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.668"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:19.430"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:20.134"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:19.149"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:19.429"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:19.999"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.697"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:21.060"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:20.143"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.522"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:17.855"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.461"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.064"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.750"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.018"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:20.726"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:19.310"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:19.588"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:19.617"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:19.113"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:20.644"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:17.277"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:20.054"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:20.878"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:19.220"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:19.464"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:19.778"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.753"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.526"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.819"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.988"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:16.822"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:16.706"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:15.881"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:16.059"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:16.124"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:16.081"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:15.516"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:32.875"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.962"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:15.287"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:14.496"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:14.634"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:31.446"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:20.701"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:15.399"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:14.596"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:15.024"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:16.214"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:17.954"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:16.693"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:16.622"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:16.990"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:17.864"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:20.206"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:16.154"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:14.264"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:17.001"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:13.988"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.776"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:14.360"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.420"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:15.794"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.530"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:14.295"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:14.539"
+    },
+    {
+      "driver": "SAI",
+      "file": "SAI_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:15.182"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:38.018"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:49.806"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:49.353"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:36.353"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.285"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.306"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:21.196"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:21.663"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:22.321"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.708"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:20.118"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.565"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:19.387"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:18.472"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:19.347"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.446"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:37.825"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:19.563"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:16.581"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:16.433"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:16.907"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:16.673"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.579"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.042"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:17.241"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:18.901"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:17.027"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:17.272"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:20.119"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:20.246"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:19.721"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:20.498"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:18.230"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:20.199"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:18.217"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:18.912"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.946"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.252"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.805"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.785"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:18.701"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.363"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:17.762"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:18.615"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:19.045"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.020"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:20.384"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:18.618"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:18.251"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:19.001"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:20.289"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:22.255"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:18.963"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:19.793"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:18.805"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:18.365"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:18.494"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:18.116"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:19.183"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.580"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:18.751"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:18.282"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.974"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:37.177"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:17.944"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:14.886"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:14.877"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:15.326"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:15.247"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.215"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.555"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.161"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:15.952"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:17.061"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.313"
+    },
+    {
+      "driver": "STR",
+      "file": "STR_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:17.596"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:50.476"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:48.876"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.545"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:33.097"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:18.663"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:18.281"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:19.157"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:23.351"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:19.611"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:21.823"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:20.088"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:19.637"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:19.301"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:18.775"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:19.086"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:20.444"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:21.081"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:19.608"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:19.752"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:18.896"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:17.885"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:17.395"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:16.933"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:17.026"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:18.413"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:19.530"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:19.565"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:19.786"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:19.313"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:20.165"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:20.088"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:20.951"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:18.035"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:18.623"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:20.269"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:18.945"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:18.933"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:18.168"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:18.879"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:18.913"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:18.272"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:17.292"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:18.050"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:18.827"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:19.266"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:19.246"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:20.203"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:18.979"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:17.998"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:19.205"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:20.267"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:21.891"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:19.395"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:19.566"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:18.811"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:18.408"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:18.497"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:18.253"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:19.028"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:18.810"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:18.547"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:18.430"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:18.923"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:18.512"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:17.611"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:17.610"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:15.969"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:15.966"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:18.332"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:16.046"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:15.607"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:15.320"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:31.926"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:19.467"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:14.913"
+    },
+    {
+      "driver": "TSU",
+      "file": "TSU_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:15.886"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_1.csv",
+      "lap_number": 1,
+      "lap_time": "1:27.020"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_2.csv",
+      "lap_number": 2,
+      "lap_time": "1:46.318"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_3.csv",
+      "lap_number": 3,
+      "lap_time": "1:48.815"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_4.csv",
+      "lap_number": 4,
+      "lap_time": "1:40.290"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_5.csv",
+      "lap_number": 5,
+      "lap_time": "1:20.800"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_6.csv",
+      "lap_number": 6,
+      "lap_time": "1:20.011"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_7.csv",
+      "lap_number": 7,
+      "lap_time": "1:18.968"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_8.csv",
+      "lap_number": 8,
+      "lap_time": "1:17.714"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_9.csv",
+      "lap_number": 9,
+      "lap_time": "1:21.205"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_10.csv",
+      "lap_number": 10,
+      "lap_time": "1:19.169"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_11.csv",
+      "lap_number": 11,
+      "lap_time": "1:17.481"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_12.csv",
+      "lap_number": 12,
+      "lap_time": "1:18.128"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_13.csv",
+      "lap_number": 13,
+      "lap_time": "1:17.122"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_14.csv",
+      "lap_number": 14,
+      "lap_time": "1:16.810"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_15.csv",
+      "lap_number": 15,
+      "lap_time": "1:16.380"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_16.csv",
+      "lap_number": 16,
+      "lap_time": "1:15.392"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_17.csv",
+      "lap_number": 17,
+      "lap_time": "1:15.131"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_18.csv",
+      "lap_number": 18,
+      "lap_time": "1:15.035"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_19.csv",
+      "lap_number": 19,
+      "lap_time": "1:15.413"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_20.csv",
+      "lap_number": 20,
+      "lap_time": "1:15.233"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_21.csv",
+      "lap_number": 21,
+      "lap_time": "1:15.248"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_22.csv",
+      "lap_number": 22,
+      "lap_time": "1:15.291"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_23.csv",
+      "lap_number": 23,
+      "lap_time": "1:15.254"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_24.csv",
+      "lap_number": 24,
+      "lap_time": "1:15.181"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_25.csv",
+      "lap_number": 25,
+      "lap_time": "1:15.175"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_26.csv",
+      "lap_number": 26,
+      "lap_time": "1:16.288"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_27.csv",
+      "lap_number": 27,
+      "lap_time": "1:16.323"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_28.csv",
+      "lap_number": 28,
+      "lap_time": "1:32.651"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_29.csv",
+      "lap_number": 29,
+      "lap_time": "1:18.571"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_30.csv",
+      "lap_number": 30,
+      "lap_time": "1:15.074"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_31.csv",
+      "lap_number": 31,
+      "lap_time": "1:15.133"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_32.csv",
+      "lap_number": 32,
+      "lap_time": "1:15.424"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_33.csv",
+      "lap_number": 33,
+      "lap_time": "1:16.213"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_34.csv",
+      "lap_number": 34,
+      "lap_time": "1:15.800"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_35.csv",
+      "lap_number": 35,
+      "lap_time": "1:15.330"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_36.csv",
+      "lap_number": 36,
+      "lap_time": "1:14.976"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_37.csv",
+      "lap_number": 37,
+      "lap_time": "1:15.025"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_38.csv",
+      "lap_number": 38,
+      "lap_time": "1:14.677"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_39.csv",
+      "lap_number": 39,
+      "lap_time": "1:14.785"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_40.csv",
+      "lap_number": 40,
+      "lap_time": "1:14.421"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_41.csv",
+      "lap_number": 41,
+      "lap_time": "1:14.390"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_42.csv",
+      "lap_number": 42,
+      "lap_time": "1:14.456"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_43.csv",
+      "lap_number": 43,
+      "lap_time": "1:14.567"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_44.csv",
+      "lap_number": 44,
+      "lap_time": "1:14.380"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_45.csv",
+      "lap_number": 45,
+      "lap_time": "1:14.230"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_46.csv",
+      "lap_number": 46,
+      "lap_time": "1:14.897"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_47.csv",
+      "lap_number": 47,
+      "lap_time": "1:14.859"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_48.csv",
+      "lap_number": 48,
+      "lap_time": "1:14.538"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_49.csv",
+      "lap_number": 49,
+      "lap_time": "1:14.261"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_50.csv",
+      "lap_number": 50,
+      "lap_time": "1:14.426"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_51.csv",
+      "lap_number": 51,
+      "lap_time": "1:15.165"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_52.csv",
+      "lap_number": 52,
+      "lap_time": "1:16.328"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_53.csv",
+      "lap_number": 53,
+      "lap_time": "1:17.547"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_54.csv",
+      "lap_number": 54,
+      "lap_time": "1:15.872"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_55.csv",
+      "lap_number": 55,
+      "lap_time": "1:15.620"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_56.csv",
+      "lap_number": 56,
+      "lap_time": "1:15.330"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_57.csv",
+      "lap_number": 57,
+      "lap_time": "1:15.418"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_58.csv",
+      "lap_number": 58,
+      "lap_time": "1:15.247"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_59.csv",
+      "lap_number": 59,
+      "lap_time": "1:15.350"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_60.csv",
+      "lap_number": 60,
+      "lap_time": "1:15.088"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_61.csv",
+      "lap_number": 61,
+      "lap_time": "1:15.064"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_62.csv",
+      "lap_number": 62,
+      "lap_time": "1:15.130"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_63.csv",
+      "lap_number": 63,
+      "lap_time": "1:15.088"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_64.csv",
+      "lap_number": 64,
+      "lap_time": "1:15.240"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_65.csv",
+      "lap_number": 65,
+      "lap_time": "1:15.122"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_66.csv",
+      "lap_number": 66,
+      "lap_time": "1:15.214"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_67.csv",
+      "lap_number": 67,
+      "lap_time": "1:15.551"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_68.csv",
+      "lap_number": 68,
+      "lap_time": "1:16.273"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_69.csv",
+      "lap_number": 69,
+      "lap_time": "1:16.063"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_70.csv",
+      "lap_number": 70,
+      "lap_time": "1:15.812"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_71.csv",
+      "lap_number": 71,
+      "lap_time": "1:16.058"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_72.csv",
+      "lap_number": 72,
+      "lap_time": "1:16.072"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_73.csv",
+      "lap_number": 73,
+      "lap_time": "1:16.221"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_74.csv",
+      "lap_number": 74,
+      "lap_time": "1:16.349"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_75.csv",
+      "lap_number": 75,
+      "lap_time": "1:16.344"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_76.csv",
+      "lap_number": 76,
+      "lap_time": "1:16.468"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_77.csv",
+      "lap_number": 77,
+      "lap_time": "1:33.332"
+    },
+    {
+      "driver": "VER",
+      "file": "VER_lap_78.csv",
+      "lap_number": 78,
+      "lap_time": "1:17.770"
+    }
+  ]
+}
